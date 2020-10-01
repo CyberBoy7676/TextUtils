@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 def index(request):
     # analys the text 
-    return render(request,'index.html' )
+    return render(request,'index.html',{"name":"adil"} )
     # return HttpResponse("Home")
 
 def analyze(request):
